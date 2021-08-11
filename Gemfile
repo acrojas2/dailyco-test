@@ -17,11 +17,13 @@ gem 'pundit'
 gem 'rack-cors', '~> 1.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'rails-i18n'
+gem "react_on_rails", "11.0.0"
 gem 'sass-rails', '>= 6'
 gem 'scout_apm'
 gem 'strong_migrations'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
+
 
 group :development do
   gem 'annotate', '~> 3.0'

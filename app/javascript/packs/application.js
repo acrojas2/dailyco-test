@@ -1,12 +1,6 @@
-import Vue from 'vue/dist/vue.esm';
-import App from '../app.vue';
-import '../css/application.css';
+import ReactOnRails from 'react-on-rails';
+import Hello from '../components/hello';
 
-document.addEventListener('DOMContentLoaded', () => {
-  const app = new Vue({
-    el: '#vue-app',
-    components: { App },
-  });
-
-  return app;
+ReactOnRails.register({
+  Hello,
 });
